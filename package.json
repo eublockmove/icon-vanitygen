@@ -1,0 +1,35 @@
+{
+  "name": "icon-vanitygen",
+  "version": "0.0.1",
+  "description": "ICON Vanity Address Generator for nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No test specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eublockmove/icon-vanitygen.git"
+  },
+  "keywords": [
+    "icon",
+    "vanitygen",
+    "vanity",
+    "address",
+    "icx",
+    "crypto"
+  ],
+  "bin": {
+    "iconvanity": "index.js"
+  },
+  "author": "coinfreakgr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eublockmove/icon-vanitygen/issues"
+  },
+  "homepage": "https://github.com/eublockmove/icon-vanitygen#readme",
+  "dependencies": {
+    "icon-sdk-js": "0.0.18",
+    "ora": "^3.4.0",
+    "yargs": "^15.1.0"
+  }
+}
