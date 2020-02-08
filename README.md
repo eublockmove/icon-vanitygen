@@ -22,11 +22,15 @@ To generate a random address simply run:
 $ iconvanity
 ```
 
-
 To look for a vanity address, simply add an input variable:
 
 ```
 $ iconvanity -i dadb0d
+```
+
+Local use:
+```
+$ node index.js -i abc12
 ```
 
 ## Notes
